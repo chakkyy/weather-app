@@ -1,0 +1,14 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  height: 80vh;
+}
+
+
+@media (max-width: 700px) { 
+  .cards {
+      overflow: hidden;
+     } 
+}

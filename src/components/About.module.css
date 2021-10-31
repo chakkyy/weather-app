@@ -1,0 +1,28 @@
+.container {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  color: aliceblue;
+  font-size: 1.8rem;
+  top: 10%;
+}
+
+@media (max-width: 5500px) {
+  .container {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 551px) {
+  .container {
+    font-size: 1.5rem;
+  }
+
+  .title {
+    font-size: 1.7rem;
+  }
+}

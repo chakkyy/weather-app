@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: #548CA8;
+  background-image: url('./jackson-hendry-eodA_8CTOFo-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Gowun Dodum', sans-serif;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+.empty {
+  font-size: 3rem;
+  font-weight: 400;
+  color: aliceblue;
+}
+
