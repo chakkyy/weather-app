@@ -1,0 +1,13 @@
+.maincontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  min-height: 65%;
+}
+
+@media (max-width: 700px) {
+  .maincontainer {
+    overflow: hidden;
+  }
+}

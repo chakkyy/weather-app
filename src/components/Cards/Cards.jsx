@@ -1,15 +1,15 @@
-import React from 'react';
-import './Cards.css';
+import React from "react";
+import "./Cards.css";
 
-import Card from './Card.jsx';
+import Card from "../Card/Card.jsx";
 
-export default function Cards({cities, handleOnClose}) {
-
-  if(cities){
+export default function Cards({ cities, handleOnClose }) {
+  if (cities) {
     cities.reverse();
     return (
-      <div className='cards'>
-        {cities.map(c => <Card
+      <div className="cards">
+        {cities.map((c) => (
+          <Card
             max={c.max}
             min={c.min}
             name={c.name}
@@ -23,12 +23,11 @@ export default function Cards({cities, handleOnClose}) {
             clouds={c.clouds.all}
             wind={c.wind.speed}
             sensacion={c.sensacion}
-          /> )}
+          />
+        ))}
       </div>
     );
   } else {
-    return(
-      <div>Sin ciudades</div>
-    )
+    return <div>Sin ciudades</div>;
   }
 }

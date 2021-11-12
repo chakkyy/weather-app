@@ -18,7 +18,6 @@ export default function SearchBar({ onSearch }) {
         type="text"
         placeholder="Add a city.."
         className="barra"
-        //value={city}
         onChange={(e) => setCity(e.target.value)}
         autoComplete="off"
       />

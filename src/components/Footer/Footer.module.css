@@ -1,20 +1,21 @@
 .footer {
-  width: 100vw;
-  position: absolute;
+  width: 100%;
+  height: 10%;
   bottom: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: aliceblue;
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 2em;
+  margin-right: 1em;
 }
 
 .about {
   color: aliceblue;
-  font-size: 1.5rem;
   margin-left: 1rem;
   padding: 0.5rem;
+  font-size: 1.5rem;
 }
 
 .about:hover {
@@ -25,7 +26,7 @@
 
 .redes {
   display: flex;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-right: 1rem;
   text-decoration: none;
 }
