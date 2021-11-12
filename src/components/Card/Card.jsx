@@ -42,11 +42,7 @@ export default function Card(props) {
     <Tilt
       tiltMaxAngleX={10}
       tiltMaxAngleY={10}
-      glareEnable={true}
-      glareMaxOpacity={0.8}
-      glareColor="#ffffff"
-      glarePosition="bottom"
-      glareBorderRadius="20px"
+      
     >
       <div class="card">
         <div
